@@ -1,61 +1,66 @@
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+# Fitness Tracker
+This is fitness tracker application that will track workout you have performed and completed. On the dashboard it will measure out your progress so the user can visualize their improvements.
+<!-- > Outline a brief description of your project. -->
+> Live demo [_here_](https://www.example.com).  <!--If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
+<!--* [Features](#features)-->
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
-* [Project Status](#project-status)
+<!-- * [Project Status](#project-status)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgements](#acknowledgements)-->
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- It is fitness tracker application where a user can record their workouts.
+- It gives the user the experience of keeping all their fitness data in one area.
+- The application gives the user a quick and easy way to record workouts in order to improve their routines.
+<!-- - Why did you undertake it?
+ You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+* [Node.js](https://nodejs.org/)
+* [Express.js](https://expressjs.com/)
+* [Mongoose.js](https://mongoosejs.com/)
+* [MongoDB](https://www.mongodb.com/)
 
-
-## Features
+<!-- ## Features
 List the ready features here:
 - Awesome feature 1
 - Awesome feature 2
-- Awesome feature 3
+- Awesome feature 3 -->
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Screenshot 1](./img/screenshot1.png)
+![Screenshot 2](./img/screenshot2.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
+Need to install dependencies in the package.json file, seed the data provided, then run the application.
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+Install dependencies
 
-`write-your-code-here`
+`npm install`
+
+Run seed data
+`npm run seed`
+
+Run the server on local http://localhost:3000/
+`npm start`
 
 
-## Project Status
+<!-- ## Project Status
 Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
 
 
@@ -75,11 +80,13 @@ To do:
 Give credit here.
 - This project was inspired by...
 - This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- Many thanks to... -->
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@degrootr253](https://github.com/degrootr253)
+
+
 
 
 <!-- Optional -->
