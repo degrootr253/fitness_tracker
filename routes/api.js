@@ -29,7 +29,7 @@ router.get("/workouts", (req, res) => {
 
 router.put("/workouts/:id", (req, res) => {
   Workout.findByIdAndUpdate(req.params.id,
-    {$push: { excercises: req.body }},
+    {$push: { exercises: req.body }},
     { new: true, runValidators: true })
     .then(dbworkout => {
       res.json(dbworkout);
