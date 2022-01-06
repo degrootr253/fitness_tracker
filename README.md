@@ -54,9 +54,11 @@ Install dependencies
 `npm install`
 
 Run seed data
+
 `npm run seed`
 
 Run the server on local http://localhost:3000/
+
 `npm start`
 
 
