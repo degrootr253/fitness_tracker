@@ -1,7 +1,7 @@
 # Fitness Tracker
 This is fitness tracker application that will track workout you have performed and completed. On the dashboard it will measure out your progress so the user can visualize their improvements.
 <!-- > Outline a brief description of your project. -->
-> Live demo [_here_](https://www.example.com).  <!--If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://blooming-wave-04556.herokuapp.com/).  <!--If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
